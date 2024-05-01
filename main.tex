@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{lmodern}
+\name{Marco Domenico}{Buttiglione}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}\textbf{Software Engineer}\end{center}
+\begin{center}
+\begin{tabular}{ c c c }
+\faMobile\enspace +39 3491082718 & \enspace marco.buttiglione98@gmail.com \enspace& \faHome\enspace Milan, IT 
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{ c c }
+\faLinkedin\enspace \color{blue} \href{https://www.linkedin.com/in/marco-dom-buttiglione/}{in/marco-dom-buttiglione} \enspace &
+\faGithub\enspace \color{blue} \href{https://github.com/MarcoButtiglione}{github.com/MarcoButtiglione}
+\end{tabular}
+\end{center}
+\section{Profile}
+{Innovative Digital Marketing Manager with 5+ years of experience managing online marketing campaigns and leading cross-functional teams. Skilled in developing integrated marketing strategies that drive brand awareness, engagement, and conversions.}
+
+\section{Professional Experience}
+
+\customcventry{Jan. 2021 ‐ Sept. 2021}{{\color{blue}\href{https://www.wideverse.com/}{(Wideverse)}}}{Frontend Web Developer,}{Bari, IT}{}{{\begin{itemize}[leftmargin=0.6cm,noitemsep,topsep=0pt, label={\textbullet}]
+\item Developed a CRM portal utilizing ReactJS for the Italian Public Administration's registry office, featuring an integrated chat function for streamlined communication.
+\item Developed an 3D web configurator using Babylon.js for a client in the outdoor curtains industry, allowing users to customize their products.
+\end{itemize}}}
+
+\section{Education}
+
+\customcventry{2021 - 2024}{\color{blue}\href{https://www.polimi.it/}{Politecnico di Milano}}{MSc Computer Science and Engineering}{Milan, IT}{}{}{Relevant Courses: Software and Hardware, Data Visualization, Business Intelligence, Digital Marketing, Time Series Analysis \& Forecasting. Evaluated as 110/110 cum laude}\\
+
+\customcventry{2017 - 2021}{\color{blue}\href{https://www.poliba.it/}{Politecnico di Bari}}{BSc Computer Science and Automation Engineering}{Bari, IT}{}{}{Relevant Courses: Software and Hardware, Data Visualization, Business Intelligence, Digital Marketing, Time Series Analysis \& Forecasting. Evaluated as 110/110 cum laude}\\
+
+
+\section{Projects}
+\customcventry{Oct. 2022 - Present}{\color{blue}\href{https://polimi-game-collective.itch.io/paradox}{Paradox!}}{2000s Cartoon Style 2D Platformer Game, }{Milan, IT}{}{}{Currently Project Leader and Game Developer with a dynamic team of 6 developers, designers and artists to the development of a 2D platformer game called "Paradox!" borned as a successful university project with the "Politecnico di Milano" and winner of different awards and competitions. The game is available on itch.io in the first university prototype version, but it is still in development.}\\
+
+\customcventry{Sept. 2023 - Present}{\color{blue}\href{https://github.com/MarcoButtiglione/SurgerySimulatorVR-Softbody}{POLIMI SurgSimVR}}{Virtual Reality Surgery Simulator,
+}{Milan, IT}{}{}{Currently following the development of a VR surgery simulator using Unity and the Oculus Quest 2. The project is still in development and it is available on GitHub.}\\
+
+\section{Pubblications}
+{\begin{itemize}[label=\textbullet]
+  \item Patti A., Vona F., Barberio A., Buttiglione M.D., Crusco I., Mores M., Garzotto F.: \emph{“Training Attention Skills in Individuals with Neurodevelopmental Disorders using Virtual Reality and Eye-tracking Technology”} (Jul. 2024) - \underline{\color{blue}\href{https://2024.hci.international/}{HCII2024}}
+  \item Buttiglione M.D., Guerrera F., Piazzolla P., Colombo G., Gribaudo M.: \emph{"Lung Operation Training in Low-Cost Virtual Reality Simulation Environments"} (Jun. 2024) - \underline{\color{blue}\href{https://scs-europe.net/conf/ecms2024/}{ECMS2024}}
+\end{itemize}} 
+
+
+\section{Certifications}
+\customcventry{2021}{IELTS}{International English Language Testing System}{Bari, IT}{}{}{Overall Band Score: 6.0 (B2 Level)}\\
+
+
+\end{document}
